@@ -62,6 +62,7 @@ and open the template in the editor.
               <img class="img-fluid" src="https://previews.123rf.com/images/jakobradlgruber/jakobradlgruber1503/jakobradlgruber150300113/37343725-vista-inferior-de-modernos-rascacielos-en-el-distrito-financiero-contra-el-cielo-azul.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
+              <a> <kbd>mas</kbd> </a>
             </div>
             <div class="col-sm-4">
               <h3>Column 3</h3>
