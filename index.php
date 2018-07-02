@@ -43,10 +43,10 @@ and open the template in the editor.
       </nav>
       <br/>
       <!--Page-Content-->
-      <header class="bg-light">
+      <header class="bg-light text-dark">
         <div class="container">
           <div class="col-sm12">
-            <h1>Noticias</h1>
+            <h1 class="text-dark">Noticias</h1>
             <br/>
             <p class="text-justify">El Instituto de Salud Pública realiza labores en diversas áreas de la salud, como evaluación de calidad de laboratorios, vigilancia de enfermedades, control y fiscalización de medicamentos, cosméticos y dispositivos de uso médico, salud ambiental, salud ocupacional, producción y control de calidad de vacunas, entre otros.</p>
           </div>
@@ -85,8 +85,12 @@ and open the template in the editor.
 <!--footer-page-->
       <footer class="py-5 bg-secondary">
         <div class="container">
-
-          <p class="m-0 text-center text-dark">ISP &copy; 2018</p>
+          <a class="text-dark" href="#">inicio</a>
+          <a class="text-dark" href="#">servicios</a>
+          <a class="text-dark" href="#">clientes</a>
+          <a class="text-dark" href="#">intranet</a>
+          <a class="text-dark" href="#">politica de privacidad</a>
+          <p class="text-white m-0 text-center">ISP &copy; 2018</p>
         </div>
     </body>
 </html>
