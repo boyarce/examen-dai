@@ -13,24 +13,80 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/assets/css/style.css">
     </head>
     <body>
-      <h1>Inicio</h1>
-      <nav class="navbar navbar-expand-sm bg-light">
-
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
-
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary fixed-top ">
+        <div class="container">
+          <a class="navbar-brand text-dark" href="index.php">Instituto de salud publica</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-dark" href="index.php">Inicio
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Intranet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      <br/>
+      <!--Page-Content-->
+      <header class="bg-light">
+        <div class="container">
+          <div class="col-sm12">
+            <h1>Noticias</h1>
+            <br/>
+            <p class="text-justify">El Instituto de Salud Pública realiza labores en diversas áreas de la salud, como evaluación de calidad de laboratorios, vigilancia de enfermedades, control y fiscalización de medicamentos, cosméticos y dispositivos de uso médico, salud ambiental, salud ocupacional, producción y control de calidad de vacunas, entre otros.</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>Column 1</h3>
+              <p>Lorem ipsum dolor..</p>
+              <p>Ut enim ad..</p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Column 2</h3>
+              <p>Lorem ipsum dolor..</p>
+              <p>Ut enim ad..</p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Column 3</h3>
+              <p>Lorem ipsum dolor..</p>
+              <p>Ut enim ad..</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <br/>
+      <!--Social-media-->
+      <section class="py-5">
+        <div class="container">
+          <a href="#" class="btn azm-social azm-size-48 azm-r-square azm-facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="btn azm-social azm-size-48 azm-r-square azm-google"><i class="fa fa-google"></i></a>
+          <a href="https://github.com/boyarce" class="btn azm-social azm-size-48 azm-r-square azm-github"><i class="fa fa-github"></i></a>
+          <a href="#" class="btn azm-social azm-size-48 azm-r-square azm-linux"><i class="fa fa-linux"></i></a>
+          <a href="#" class="btn azm-social azm-size-48 azm-r-square azm-twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="btn azm-social azm-size-48 azm-r-square azm-youtube"><i class="fa fa-youtube"></i></a>
+          <a href="#" class="btn azm-social azm-size-48 azm-r-square azm-instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </section>
+<!--footer-page-->
+      <footer class="py-5 bg-secondary">
+        <div class="container">
+
+          <p class="m-0 text-center text-dark">ISP &copy; 2018</p>
+        </div>
     </body>
 </html>
