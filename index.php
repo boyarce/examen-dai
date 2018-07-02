@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php ?>
 <html>
     <head>
       <title>Inicio</title>
@@ -17,6 +12,9 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/assets/css/style.css">
     </head>
     <body>
+      <?php
+        echo "holen";
+      ?>
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-secondary bg-white fixed-top ">
         <div class="container">
@@ -56,19 +54,21 @@ and open the template in the editor.
                <img class="img-fluid" src="https://previews.123rf.com/images/kasto/kasto1507/kasto150700141/44025852-taller-en-la-universidad-vista-trasera-de-los-estudiantes-sentados-y-escuchando-en-la-sala-de-confer.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
+              <a href="#"> <kbd>mas</kbd> </a>
             </div>
             <div class="col-sm-4">
               <h3>Column 2</h3>
               <img class="img-fluid" src="https://previews.123rf.com/images/jakobradlgruber/jakobradlgruber1503/jakobradlgruber150300113/37343725-vista-inferior-de-modernos-rascacielos-en-el-distrito-financiero-contra-el-cielo-azul.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
-              <a> <kbd>mas</kbd> </a>
+              <a href="#"> <kbd>mas</kbd> </a>
             </div>
             <div class="col-sm-4">
               <h3>Column 3</h3>
               <img class="img-fluid" src="https://previews.123rf.com/images/kasto/kasto1411/kasto141100109/33550694-ponente-en-taller-de-negocios-y-presentaci%C3%B3n-audiencia-en-la-sala-de-conferencias-.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
+              <a href="#"> <kbd>mas</kbd> </a>
             </div>
           </div>
         </div>
