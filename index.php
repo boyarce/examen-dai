@@ -12,9 +12,6 @@
         <link rel="stylesheet" href="css/assets/css/style.css">
     </head>
     <body>
-      <?php
-        echo "holen";
-      ?>
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-secondary bg-white fixed-top ">
         <div class="container">
@@ -30,7 +27,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-primary" href="#">clientes</a>
+                <a class="nav-link text-primary" href="clientes.php">clientes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-primary" href="#">Intranet</a>
