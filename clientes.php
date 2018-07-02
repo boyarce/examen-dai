@@ -121,11 +121,11 @@
 <!--footer-page-->
     <footer class="py-5 bg-secondary">
       <div class="container">
-        <a class="text-dark" href="#">inicio</a>
-        <a class="text-dark" href="#">servicios</a>
-        <a class="text-dark" href="#">clientes</a>
-        <a class="text-dark" href="#">intranet</a>
-        <a class="text-dark" href="#">politica de privacidad</a>
+        <a class="text-dark col-sm-1" href="#">inicio</a>
+        <a class="text-dark col-sm-1" href="#">servicios</a>
+        <a class="text-dark col-sm-1" href="#">clientes</a>
+        <a class="text-dark col-sm-1" href="#">intranet</a>
+        <a class="text-dark col-sm-1" href="#">politica de privacidad</a>
         <p class="text-white m-0 text-center">ISP &copy; 2018</p>
       </div>
   </body>
