@@ -18,24 +18,24 @@ and open the template in the editor.
     </head>
     <body>
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary fixed-top ">
+      <nav class="navbar navbar-expand-lg navbar-secondary bg-white fixed-top ">
         <div class="container">
-          <a class="navbar-brand text-dark" href="index.php">Instituto de salud publica</a>
+          <a class="navbar-brand text-primary" href="index.php">Instituto de salud publica</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link text-dark" href="index.php">Inicio
+                <a class="nav-link text-primary" href="index.php">Inicio
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#">clientes</a>
+                <a class="nav-link text-primary" href="#">clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Intranet</a>
+                <a class="nav-link text-primary" href="#">Intranet</a>
               </li>
             </ul>
           </div>
@@ -43,7 +43,7 @@ and open the template in the editor.
       </nav>
       <br/>
       <!--Page-Content-->
-      <header class="bg-light text-dark">
+      <header class="bg-light text-dark" style="background-image: url('https://image.freepik.com/vector-gratis/fondo-luminoso-con-puntos_1055-3132.jpg')">
         <div class="container">
           <div class="col-sm12">
             <h1 class="text-dark">Noticias</h1>
@@ -53,16 +53,19 @@ and open the template in the editor.
           <div class="row">
             <div class="col-sm-4">
               <h3>Column 1</h3>
+               <img class="img-fluid" src="https://previews.123rf.com/images/kasto/kasto1507/kasto150700141/44025852-taller-en-la-universidad-vista-trasera-de-los-estudiantes-sentados-y-escuchando-en-la-sala-de-confer.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
             </div>
             <div class="col-sm-4">
               <h3>Column 2</h3>
+              <img class="img-fluid" src="https://previews.123rf.com/images/jakobradlgruber/jakobradlgruber1503/jakobradlgruber150300113/37343725-vista-inferior-de-modernos-rascacielos-en-el-distrito-financiero-contra-el-cielo-azul.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
             </div>
             <div class="col-sm-4">
               <h3>Column 3</h3>
+              <img class="img-fluid" src="https://previews.123rf.com/images/kasto/kasto1411/kasto141100109/33550694-ponente-en-taller-de-negocios-y-presentaci%C3%B3n-audiencia-en-la-sala-de-conferencias-.jpg" alt="Chania">
               <p>Lorem ipsum dolor..</p>
               <p>Ut enim ad..</p>
             </div>
