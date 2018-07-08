@@ -1,5 +1,5 @@
 <?php ?>
-<html>
+
     <head>
       <title>Inicio</title>
        <meta charset="utf-8">
@@ -94,4 +94,4 @@
           <p class="text-white m-0 text-center">ISP &copy; 2018</p>
         </div>
     </body>
-</html>
+
