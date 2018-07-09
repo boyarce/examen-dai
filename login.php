@@ -68,4 +68,5 @@
       <a class="text-dark col-sm-1" href="#">politica de privacidad</a>
       <p class="text-white m-0 text-center">ISP &copy; 2018</p>
     </div>
+  </footer>
 </body>
