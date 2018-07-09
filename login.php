@@ -37,8 +37,14 @@
   </nav>
   <br/>
   <!--Content page-->
-  <header>
-    
+  <header class="bg-light text-dark" style="background-image: url('https://image.freepik.com/vector-gratis/fondo-luminoso-con-puntos_1055-3132.jpg')">
+    <h1>Login</h1>
+    <br/  >
+    <div class="container col-sm-6">
+      <input class="form-control" type="email" name="username" placeholder="Email" required><br/>
+      <input class="form-control" type="password" name="password" placeholder="Password" required><br/>
+      <input class="btn btn-primary" type="submit" value="Login">
+    </div>
   </header>
   <!--Social-media-->
   <section class="py-5">
