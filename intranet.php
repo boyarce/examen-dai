@@ -30,7 +30,7 @@
             <a class="nav-link text-primary" href="clientes.php">clientes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="#">Intranet</a>
+            <a class="nav-link text-primary" href="intranet.php">Intranet</a>
           </li>
         </ul>
       </div>
@@ -44,16 +44,16 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <button href="muestras1.php" class="btn btn-lg btn-default ">Recepcion de muetras</button><br/>
+          <a href="muestras1.php" class="nav-link text-dark btn btn-primary">Recepcion de muetras</a><br/>
         </div>
         <div class="col-sm-3">
-          <button href="muestras2.php" class="btn btn-lg btn-default ">Muestras para procesar</button><br/>
+          <a href="muestras2.php" class="nav-link text-dark btn btn-primary">Muestras para procesar</a><br/>
         </div>
         <div class="col-sm-3">
-          <button href="muestras3.php" class="btn btn-lg btn-default ">Registro de muestras</button><br/>
+          <a href="muestras3.php" class="nav-link text-dark btn btn-primary">Registro de muestras</a><br/>
         </div>
         <div class="col-sm-3">
-          <button href="muestras4.php" class="btn btn-lg btn-default ">Busqueda de muestras</button><br/>
+          <a href="muestras4.php" class="nav-link text-dark btn btn-primary">Busqueda de muestras</a><br/>
         </div>
       </div>
     </div>

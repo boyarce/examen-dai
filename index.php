@@ -30,7 +30,7 @@
                 <a class="nav-link text-primary" href="clientes.php">clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-primary" href="#">Intranet</a>
+                <a class="nav-link text-primary" href="intranet.php">Intranet</a>
               </li>
             </ul>
           </div>
@@ -94,4 +94,3 @@
           <p class="text-white m-0 text-center">ISP &copy; 2018</p>
         </div>
     </body>
-
