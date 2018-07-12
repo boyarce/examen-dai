@@ -1,0 +1,48 @@
+- Registrar empresas LISTO
+- Registrar particulares LISTO
+- Registrar empleados (Solo admin. Se deben asignar el rol cuando se cree, (A)dministrador del sitio, (R)eceptor de Muestras, (T)écnico de laboratorio) LISTO
+
+- Login empresas LISTO
+- Login particulares LISTO
+- Login empleados LISTO
+
+- Recibir (generar) muestras (Solo receptores. que a la vez genere ResultadoAnalisis dependiendo de los tipos de analisis que se requieran. 
+También se debe registrar el rut del receptor de muestras que acepto la muestra) PENDIENTE
+
+- Realizar analisis de muestra (Solo tecnicos. se debe registrar el rut del receptor de muestras que analizó la muestra) PENDIENTE
+
+- Crear, modificar, y eliminar tipos de analisis LISTO
+
+- Dar de baja a particulares (Admin y particulares) LISTO
+- Dar de baja a las empresas (Admin y empresas) LISTO
+- Dar de baja a empleados (Solo admin) LISTO
+
+- Modificar datos empresas LISTO
+- Modificar datos particulares LISTO
+- Modificar datos empleados LISTO
+
+Visualizar los datos de los resultados de las muestras
+
+- Buscar por rut de cliente o código de cliente: debe mostrar todos los análisis que se han ingresado y 
+su estado (en proceso o terminado). Al hacer clic en el código del análisis debe mostrar el resultado 
+del análisis. Los análisis se deben mostrar como texto y también con un gráfico de columna para cada 
+uno de los análisis.  PENDIENTE
+
+- Buscar por código de muestra: debe mostrar el estado de la muestra (en proceso o terminada), si la 
+muestra se encuentra terminada, al hacer clic sobre ella, debe mostrar el resultado, de la misma forma 
+que en el punto anterior.  PENDIENTE
+
+- Buscar (listar) la información de todas las muestras que fueron recibidas por un trabajador usando su rut LISTO
+
+- Buscar (listar) la información de todas los resultados ingresados por un trabajador usando su rut. LISTO
+
+- Buscar (listar) la información de todos los analisis asociados a una muestra LISTO
+
+
+BAJA PRIORIDAD:
+
+Admin: 
+- Generar reportes respecto a los técnicos y sus análisis
+- Generar reportes respecto a los recepcionistas y las muestras recibidas
+
+
