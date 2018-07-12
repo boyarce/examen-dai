@@ -1,4 +1,4 @@
-<?php  include_once "model/connection/conecctionBD.php"?>
+<?php // include_once "model/connection/conecctionBD.php"?>
 <html lang="en" dir="ltr">
   <head>
     <title>Clientes</title>
@@ -59,7 +59,7 @@
                   <input type="text" class="form-control" id="nombreCliente" placeholder="Nombre Cliente" name="nombreCliente">
                 </div>
                 <label for="fechaRecepcion">Fecha de recepcion </label>
-                 <input type="date" name="fechaRecepcion" id="fechaRecepcion">
+                 <input class="date" type="date" name="fechaRecepcion" id="fechaRecepcion">
                  <br></br>
                 <div class="form-group text-justify">
                   <input type="text" class="form-control" id="temperaturaMuestra" placeholder="Temperatura muestra" name="temperaturaMuestra">
@@ -67,15 +67,24 @@
                 <div class="form-group text-justify">
                   <input type="text" class="form-control" id="cantidadMuestra" placeholder="Cantidad de muestra" name="cantidadMuestra">
                 </div>
-                <label for="tipoUsuario" id="tipoUsuario"> Tipo de analisis a realizar </label>
-                            <?= $usuario->selectTipoUsuario(); ?><br></br>
-                            <div >
-                <button type="submit" id="btn_agregar_analisis" class="btn btn-primary">Agregar</button>
-				
-                <button type="submit" class="btn btn-primary" id="btn_guarda_muestra" >Guardar</button>
-              </form>
-			  <div id="respuesta"></div>
-              
+                <label for="tipoUsuario" id="tipoUsuario"><!-- Tipo de analisis a realizar --></label>
+                           <!-- /?= $usuario->selectTipoUsuario(); ?>--><br></br>
+            <div >
+                      <select class="form-control" id="sel1" name="sellist1">
+                        <option>Mocotoxinas</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                 <br/>
+                 <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Mocotoxinas"></textarea>
+                 <br/>
+                    <button type="submit" id="btn_agregar_analisis" class="btn btn-primary">Agregar</button>
+
+                    <button type="submit" class="btn btn-primary" id="btn_guarda_muestra" >Guardar</button>
+                  </form>
+    			           <div id="respuesta"></div>
+
 
           </div>
         </div>
